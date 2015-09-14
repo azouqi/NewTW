@@ -1,0 +1,483 @@
+@charset "utf-8";
+/*reset CSS*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+.font {
+	font-family: "Open Sans";
+}
+#setContainer {
+	padding: 0;
+}
+.backgroundGray {
+	background: #f6f6f6;
+}
+.fontColorBlue {
+	color: #369ad8;
+}
+/*--------------------Start PAGE ONE-------------------*/
+#pageOne {
+	padding: 20px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/thank-trainer-present-new.png);
+}
+#menuElements {
+	text-align: right;
+}
+#menuElements li {
+	display: inline-block;
+}
+#menuElements li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 3px 30px;
+}
+#menuElements li a:hover {
+	background: rgba(255,255,255,0.7);
+}
+#menu {
+	padding: 0 10px;
+	font-size: 16px;
+}
+.topButton {
+	width: 150px;
+	height: 30px;
+	border: none;
+	background: #52d2b0;
+	padding: 4px 10px;
+	border-radius: 1px;
+	color: #FFF;
+}
+#PageOneText {
+	padding: 5% 0 0 15%;
+	font-size: 40px;
+	color: #FFF;
+	font-weight: lighter;
+	line-height: 60px;
+}
+/*----------------END PAGE ONE-------------------*/
+/*---START PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
+
+.textSettingOdd {
+	padding: 10% 0 10% 15%;
+	font-size: 30px;
+	font-weight: lighter;
+	line-height: 60px;
+}
+.textSettingEven {
+	padding: 10% 15% 10% 0;
+	font-size: 30px;
+	font-weight: lighter;
+	line-height: 60px;
+}
+.content {
+	width: 100%;
+	padding: 100px 0;
+}
+.content aside img {
+	width: 75%;
+}
+/*---END PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
+/*-----------------START PAGE TWO------------------*/
+#pageTwo .content aside::before {
+	content: "";
+	position: absolute;
+	top: 40%;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #f6f6f6;
+}
+/*----------------END PAGE TWO-------------------*/
+
+/*-----------------START PAGE Three------------------*/
+#pageThree .content aside::after {
+	content: "";
+	position: absolute;
+	right: 14%;
+	top: 40%;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-right: 40px solid #FFF;
+}
+/*----------------END PAGE Three-------------------*/
+/*-----------------START PAGE FOUR------------------*/
+#pageFour .content aside::before {
+	content: "";
+	position: absolute;
+	top: 40%;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #f6f6f6;
+}
+/*----------------END PAGE FOUR-------------------*/
+/*-----------------START PAGE FIVE------------------*/
+#pageFive {
+	text-align: center;
+	padding: 30px 40px;
+}
+#pageFive h1 {
+	font-size: 48px;
+	font-weight: lighter;
+	line-height: 60px;
+	padding-bottom: 50px;
+}
+#pageFive h3 {
+	font-weight: lighter;
+	line-height: 40px;
+	padding: 30px 0 0;
+}
+#pageFive h4 {
+	font-weight: lighter;
+	line-height: 30px;
+	color: rgba(74,74,74,0.24);
+}
+#pageFive p {
+	font-weight: lighter;
+	color: rgba(74,74,74,0.24);
+	line-height: 20px;
+	padding-bottom: 30px;
+}
+/*----------------END PAGE FIVE-------------------*/
+/*-----------------START PAGE SIX------------------*/
+#pageSix {
+	padding-top: 50px;
+	text-align: center;
+}
+#pageSix h1 {
+	font-weight: lighter;
+	line-height: 60px;
+	padding-bottom: 50px;
+}
+/*----------------END PAGE SIX-------------------*/
+/*-----------------START PAGE SEVEN------------------*/
+#pageSeven {
+	padding: 100px 0 200px;
+	text-align: center;
+}
+#pageSeven h1 {
+	font-weight: lighter;
+	line-height: 50px;
+	padding: 100px 0 0;
+}
+/*----------------END PAGE SEVEN-------------------*/
+/*-----------------START PAGE EIGHT------------------*/
+#pageEight {
+	padding: 150px 0;
+	text-align: center;
+}
+#pageEight h1 {
+	font-weight: lighter;
+	line-height: 60px;
+	padding-bottom: 50px;
+}
+#pageEight h1:last-of-type {
+	color: rgba(0,0,0,0.4);
+}
+/*Circle+square*/
+.shape {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.pricecircle {
+	background: #52D2B0;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	border: 2px solid #FFFFFF;
+	font-size: 22px;
+	line-height: 75px;
+	color: #FFF;
+	margin: 0 auto;
+	position: relative;
+	font-weight: lighter;
+	z-index: 3;
+}
+.pricesquare {
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+	width: 160px;
+	height: 55px;
+	margin: -20px auto 0;
+	font-size: 22px;
+	background-color: #38AFDF;
+	color: #8CC2E4;
+	line-height: 55px;
+	font-weight: lighter;
+}
+.pricesquare:first-of-type {
+	border-right: 1px;
+}
+.pricesquare:last-of-type {
+	border-left: 1px;
+	position: relative;
+}
+.pricesquare:last-of-type::before {
+	content: url(../images/tag-10-o-f-f-copy@2x.png);
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+.pricesquare:hover {
+	color: #FFF;
+	cursor: default;
+}
+/*Price Setting*/
+#priceSetting {
+	text-align: center;
+}
+/*Solo section*/
+#Solo {
+	width: 70%;
+	height: 180px;
+	margin: 0 auto 2px;
+	background: #75bae4;
+	color: #FFF;
+}
+.setting h2 {
+	padding: 60px 0 10px 20px;
+	text-align: left;
+	font-weight: 600;
+}
+.setting h3 {
+	padding: 80px 0 10px 20px;
+	font-weight: 400;
+}
+.setting p {
+	font-weight: lighter;
+	font-size: 16px;
+}
+.setting button {
+	background: #f89406;
+	margin: 70px 0 15px;
+	border: none;
+	width: 80%;
+	height: 50px;
+	font-size: 18px;
+}
+/*Small business section*/
+#SmallBusiness {
+	width: 70%;
+	height: 260px;
+	margin: 0 auto 2px;
+	background: #75bae4;
+	color: #FFF;
+	padding-top: 30px;
+}
+#SmallBusiness i {
+	padding: 50px 0 0;
+}
+#SmallBusiness h2 {
+	padding-top: 10px;
+}
+#SmallBusiness h4 {
+	padding-top: 30px;
+}
+/*Slider*/
+#RangeOfYears {
+	width: 200px;
+	height: 10px;
+	margin: 0 auto;
+}
+/*Entreprise and Gyme section*/
+#entrepriseGym {
+	width: 70%;
+	height: 130px;
+	margin: 0 auto;
+	background: #75bae4;
+	color: #FFF;
+}
+#entrepriseGym h2 {
+	padding-top: 30px;
+	white-space: nowrap;
+}
+#entrepriseGym h3 {
+	padding-top: 40px;
+}
+/*----------------END PAGE EIGHT-------------------*/
+/*----------------START PAGE NINE-------------------*/
+#pageNine {
+	margin: 0 auto;
+	padding: 20px 10%;
+	background: #38afdf;
+}
+.pageNineSetting {
+	font-weight: lighter;
+	list-style-type: none;
+	color: #FFF;
+}
+.pageNineSetting tt {
+	font-size: 18px;
+	line-height: 30px;
+}
+.pageNineSetting li {
+	padding: 5px 0;
+	line-height: 20px;
+}
+.pageNineSetting li:first-of-type {
+	padding: 20px 0 5px;
+}
+#AcountList {
+	padding-top: 40px;
+}
+.pageNineLastPart {
+	font-weight: lighter;
+	color: #FFF;
+	padding: 30px 0 0;
+}
+.pageNineLastPart h3 {
+	padding-bottom: 15px;
+}
+.pageNineLastPart a {
+	padding: 0 5px;
+}
+/*Last Information NEWS & Contact US*/
+#lastInfo input {
+	height: 50px;
+	font-style: italic;
+	font-size: 20px;
+	border: none;
+}
+#lastInfo button {
+	border: none;
+	height: 50px;
+	background-color: #674172;
+	font-size: 20px;
+}
+/*----------------END PAGE NINE-------------------*/
+
+/*-----------START SLIDER FOR TABLET SIZE------------*/
+#slider1_container{
+	margin:0 auto;
+}
+.jssora09l, .jssora09r {
+	display: block !important;
+	position: absolute;
+	/* size of arrow element */
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background: url(../images/a09.png) no-repeat;
+	overflow: hidden;
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+.jssora09l {
+	background-position: -5px -35px;
+}
+.jssora09r {
+	background-position: -65px -35px;
+}
+.jssora09l:hover {
+	background-position: -5px -35px;
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
+.jssora09r:hover {
+	background-position: -65px -35px;
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
+.jssora09l.jssora09ldn {
+	background-position: -5px -35px;
+	opacity: .3;
+	filter: alpha(opacity=30);
+}
+.jssora09r.jssora09rdn {
+	background-position: -65px -35px;
+	opacity: .3;
+	filter: alpha(opacity=30);
+}
+.SliderCaptionParent{
+	position: absolute;
+	top: 250px;
+	left: 0px;
+    width: 600px;
+	height: 50px;
+}
+.SliderCaptionText{
+	padding-left:20px;
+	position: absolute;
+	top: -80px;
+	left: 0px;
+	width: 600px;
+	height: 0px;
+    color: #FFF;
+	text-align: left;
+}
+.SliderCaptionText h3{
+	padding-bottom:15px;
+}
+.SliderCaptionText h4{
+	padding-bottom:10px;
+}
+.SliderCaptionText p{
+	line-height:17px;
+}
+
+/*-----------END SLIDER FOR TABLET SIZE------------*/
+
+/*----------------MEDIA QUARY FOR TABLET-------------*/
+@media only screen and (max-width: 991px) {
+html br {
+	display: none;
+}
+/*--------------------Start PAGE ONE-------------------*/
+#PageOneText {
+	padding: 5% 15%;
+	text-align: center;
+}
+/*----------------END PAGE ONE-------------------*/
+/*---START PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
+
+.textSettingOdd {
+	padding: 10% 15%;
+}
+.textSettingEven {
+	padding: 10% 15%;
+}
+.content aside img {
+	width: 60%;
+}
+/*---END PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
+/*-----------------START PAGE TWO------------------*/
+#pageTwo .content aside::before {
+	display: none;
+}
+/*----------------END PAGE TWO-------------------*/
+/*-----------------START PAGE Three------------------*/
+#pageThree .content aside::after {
+	display: none;
+}
+/*----------------END PAGE Three-------------------*/
+/*-----------------START PAGE FOUR------------------*/
+#pageFour .content aside::before {
+	display: none;
+}
+/*----------------END PAGE FOUR-------------------*/
+/*-----------------START PAGE FIVE------------------*/
+#pageFive h1 {
+	font-size: 36px;
+}
+/*----------------END PAGE FIVE-------------------*/
+}
