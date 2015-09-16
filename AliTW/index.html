@@ -14,8 +14,24 @@
   <!--Start page One-->
   <div id="pageOne">
     <header id="menu" class="clearfix font">
-      <div class="col-sm-3"> <a href="#"><img src="assets/images/Logo Foreground.png"/></a> </div>
-      <div class="col-sm-9">
+    <!--Start Tablet menu-->
+    <div id="TabletMenu" class="clearfix">
+    	<div class="col-xs-9">
+        	<div id="TabletMenuButton">
+            <button></button>
+            	<ul id="menuElementsTablet">
+          			<li><a href="#">Blog</a></li>
+          			<li><a href="#">LogIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-3">
+        <button class="topButton">Get Started</button>
+        </div>
+    </div>
+    <!--End Tablet menu-->
+      <div id="logo" class="col-sm-3 col-xs-12"> <a href="#"><img src="assets/images/Logo Foreground.png"/></a> </div>
+      <div class="col-sm-9 visible-sm">
         <ul id="menuElements">
           <li><a href="#">Blog</a></li>
           <li><a href="#">LogIn</a></li>
@@ -29,7 +45,7 @@
       <p id="PageOneText" class="col-md-5 font">Simplest way to </br>
         create and share</br>
         workouts</p>
-      <aside class="col-md-7 text-center"> <img src="assets/images/monitor_mac.png"> </aside>
+      <aside class="col-md-7 text-center"> <img src="assets/images/Computer_Mockup.png"> </aside>
     </div>
   </div>
   <!--End page One--> 
@@ -99,9 +115,12 @@
   <!--Start page seven-->
   <div id="pageSeven" class="clearfix">
     <h1 class="font fontColorBlue"> We also know you need this personal</br>
-      trainer software to be affordable so</h1>
-    <h1 class="font"> Our pricing are more affordable than any of</br>
-      our computer</h1>
+      trainer software to be <span>affordable</span> so</h1>
+    <div class="font col-sm-6 col-md-12"><h1> Our pricing are more affordable than any of</br>
+      our computer</h1></div>
+      <div class="col-sm-6 visible-sm">
+      <img src="assets/images/PIggyBank.png">
+      </div>
   </div>
   <!--End page seven--> 
   <!--Start page eight-->
@@ -114,40 +133,42 @@
       <div class="pricesquare font"> yearly </div>
     </div>
     <div id="priceSetting">
-      <div id="Solo" class="setting">
-        <div class="col-xs-4">
+      <div id="Solo" class="setting clearfix">
+        <div class="col-md-4 col-sm-12">
           <h2 class="font"><i class="fa fa-user fa-lg"></i> Solo</h2>
           <p class="font">For solo personal trainer</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-md-4 col-sm-12">
           <h3 class="font">$ 12.99 / mo</h3>
         </div>
-        <div class="col-xs-4">
+        <div class="col-md-4 col-sm-12">
           <button class="font">Get Started now</button>
         </div>
+        <input type="text" class="orButton font" value="Or"></input>
       </div>
-      <div id="SmallBusiness" class="setting">
-        <div class="col-xs-4"> <i class="fa fa-group fa-3x"></i>
+      <div id="SmallBusiness" class="setting clearfix">
+        <div class="col-md-4 col-sm-12"> <i class="fa fa-group fa-3x"></i>
           <h2 class="font">Small Business</h2>
         </div>
-        <div class="col-xs-4">
+        <div class="col-md-4 col-sm-12">
           <h3 class="font">$ 19.98 / mo</h3>
           <input id="RangeOfYears" type="range" min="0" max="9">
         </div>
-        <div class="col-xs-4">
+        <div class="col-md-4 col-sm-12">
           <button class="font">Get Started now</button>
           </br>
           <span>* $9.99 / mo / PT</span></br>
           <h4 class="font">2 personal trainer</h4>
         </div>
+        <input type="text" class="orButton font" value="Or"></input>
       </div>
-      <div id="entrepriseGym" class="setting">
-        <div class="col-xs-4">
+      <div id="entrepriseGym" class="setting clearfix">
+        <div class="col-md-4 col-sm-12">
           <h2 class="font">Entreprise &amp; Gym</h2>
           <p class="font">10 personal trainer &amp; more</p>
         </div>
-        <div class="col-xs-4"> </div>
-        <div class="col-xs-4">
+        <div class="col-md-4 col-sm-12"> </div>
+        <div class="col-md-4 col-sm-12">
           <h3 class="font">Contact Us</h3>
         </div>
       </div>

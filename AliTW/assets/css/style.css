@@ -70,18 +70,70 @@ nav ul {
 	font-weight: lighter;
 	line-height: 60px;
 }
+/*Tablet Menu*/
+#TabletMenu{
+	width:100%;
+	padding:15px 0;
+	background:rgba(54, 203, 163, 0.6);
+	text-align:center;
+	position:fixed;
+	z-index:1000;
+	display:none;
+}
+#TabletMenuButton{
+	text-align:left;
+	position: relative;
+  	padding-left: 20px;
+}
+#TabletMenuButton button{
+	width:30px;
+	height:30px;
+	margin-left:2%;
+	opacity:0;
+}
+#TabletMenuButton ul{
+	list-style:none;
+	position:absolute;
+	top:45px;
+	display:none;
+}
+#TabletMenuButton ul li:first-of-type{
+	border-top:none;
+}
+#TabletMenuButton ul li{
+	padding:10px;
+	border-bottom:1px solid #DCDCDC;
+	border-top:1px solid #DCDCDC;
+}
+#TabletMenuButton ul li a{
+	text-decoration:none;
+	color:#AEAEAE;
+}
+#TabletMenuButton:before{
+	content: "";
+  	position: absolute;
+  	left: 5%;
+  	top: 7px;
+  	width: 30px;
+  	height: 2px;
+  	background: white;
+  	box-shadow: 
+    0 8px 0 0 white,
+    0 16px 0 0 white;
+}
+
 /*----------------END PAGE ONE-------------------*/
 /*---START PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
 
 .textSettingOdd {
 	padding: 10% 0 10% 15%;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: lighter;
 	line-height: 60px;
 }
 .textSettingEven {
 	padding: 10% 15% 10% 0;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: lighter;
 	line-height: 60px;
 }
@@ -136,23 +188,23 @@ nav ul {
 	text-align: center;
 	padding: 30px 40px;
 }
-#pageFive h1 {
+#pageFive > h1 {
 	font-size: 48px;
 	font-weight: lighter;
 	line-height: 60px;
 	padding-bottom: 50px;
 }
-#pageFive h3 {
+#pageFive .col-sm-4 h3 {
 	font-weight: lighter;
 	line-height: 40px;
 	padding: 30px 0 0;
 }
-#pageFive h4 {
+#pageFive .col-sm-4 h4 {
 	font-weight: lighter;
 	line-height: 30px;
 	color: rgba(74,74,74,0.24);
 }
-#pageFive p {
+#pageFive .col-sm-4 p {
 	font-weight: lighter;
 	color: rgba(74,74,74,0.24);
 	line-height: 20px;
@@ -191,8 +243,13 @@ nav ul {
 	line-height: 60px;
 	padding-bottom: 50px;
 }
+#pageEight h1:nth-of-type(2):before{
+	content:url(../images/No%20Credit%20Card%20icon.png);
+	padding-right:15px;
+}
 #pageEight h1:last-of-type {
 	color: rgba(0,0,0,0.4);
+	position:relative;
 }
 /*Circle+square*/
 .shape {
@@ -249,10 +306,13 @@ nav ul {
 /*Solo section*/
 #Solo {
 	width: 70%;
-	height: 180px;
 	margin: 0 auto 2px;
 	background: #75bae4;
 	color: #FFF;
+	position:relative;
+}
+.setting{
+	padding-bottom:30px;
 }
 .setting h2 {
 	padding: 60px 0 10px 20px;
@@ -275,17 +335,30 @@ nav ul {
 	height: 50px;
 	font-size: 18px;
 }
+.orButton{
+	position:absolute;
+	width:40px;
+	height:40px;
+	border-radius:20px;
+	border:2px solid #FFF;
+	bottom:-20px;
+	left:48%;
+	background:#37cba4;
+	z-index:10;
+	display:none;
+	padding-left:8px;
+}
 /*Small business section*/
 #SmallBusiness {
 	width: 70%;
-	height: 260px;
 	margin: 0 auto 2px;
 	background: #75bae4;
 	color: #FFF;
 	padding-top: 30px;
+	position:relative;
 }
 #SmallBusiness i {
-	padding: 50px 0 0;
+	display:block;
 }
 #SmallBusiness h2 {
 	padding-top: 10px;
@@ -302,7 +375,6 @@ nav ul {
 /*Entreprise and Gyme section*/
 #entrepriseGym {
 	width: 70%;
-	height: 130px;
 	margin: 0 auto;
 	background: #75bae4;
 	color: #FFF;
@@ -353,12 +425,14 @@ nav ul {
 }
 /*Last Information NEWS & Contact US*/
 #lastInfo input {
+	text-align:center;
 	height: 50px;
 	font-style: italic;
 	font-size: 20px;
 	border: none;
 }
 #lastInfo button {
+	text-align:center;
 	border: none;
 	height: 50px;
 	background-color: #674172;
@@ -369,6 +443,7 @@ nav ul {
 /*-----------START SLIDER FOR TABLET SIZE------------*/
 #slider1_container{
 	margin:0 auto;
+	width:100%;
 }
 .jssora09l, .jssora09r {
 	display: block !important;
@@ -447,6 +522,9 @@ html br {
 	padding: 5% 15%;
 	text-align: center;
 }
+#menu{
+	padding:0;
+}
 /*----------------END PAGE ONE-------------------*/
 /*---START PAGE SETTING FOR PAGE TWO THREE AND FOUR---*/
 
@@ -480,4 +558,85 @@ html br {
 	font-size: 36px;
 }
 /*----------------END PAGE FIVE-------------------*/
+/*-----------------START PAGE FIVE------------------*/
+#pageSeven h1 span{
+	text-decoration:underline;
+}
+/*----------------END PAGE FIVE-------------------*/
+/*----------------START PAGE SIX-------------------*/
+#pageSix{
+	display:none;
+}
+/*----------------END PAGE SIX-------------------*/
+/*----------------START PAGE EIGHT-------------------*/
+#pageEight {
+	padding-bottom:0;
+	text-align: center;
+}
+#pageEight h1:last-of-type{
+	padding-top:50px;
+}
+#pageEight h1:last-of-type:before{
+	content:url(../images/No%20Credit%20Card%20icon.png);
+	position:absolute;
+	left:47%;
+	top:-25px;
+}
+.shape{
+	padding-bottom:0;
+}
+.setting{
+	cursor:pointer;
+}
+.setting h2,.setting h3{
+	padding:20px 0 30px;
+	text-align:center;
+	height:auto;
+}
+.setting button{
+	margin:20px 0;
+	width:40%;
+}
+.orButton{
+	display:block;
+}
+.setting i{
+	display:block;
+	padding-bottom:10px;
+}
+.setting span{
+	display:block;
+}
+#Solo{
+	width:100%;
+}
+#SmallBusiness{
+	width:100%;
+}
+#entrepriseGym{
+	width:100%;
+}
+/*----------------END PAGE EIGHT-------------------*/
+/*----------------START PAGE NINE-------------------*/
+.pageNineLastPart a{
+	padding:0 2px;
+}
+#lastInfo input {
+	font-size: 15px;
+}
+#lastInfo button {
+	font-size: 15px;
+}
+/*----------------END PAGE NINE-------------------*/
+}
+@media only screen and (max-width: 768px){
+header{
+	text-align:center;
+}
+#logo img{
+	width:30%;
+}
+#slider1_container{
+	width:80%;
+}
 }
