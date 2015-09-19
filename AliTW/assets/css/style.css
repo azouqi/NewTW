@@ -221,6 +221,9 @@ nav ul {
 	line-height: 60px;
 	padding-bottom: 50px;
 }
+#pageSix img{
+	width:50%;
+}
 /*----------------END PAGE SIX-------------------*/
 /*-----------------START PAGE SEVEN------------------*/
 #pageSeven {
@@ -231,7 +234,9 @@ nav ul {
 	font-weight: lighter;
 	line-height: 50px;
 	padding: 100px 0 0;
+	color:#424a7a;
 }
+
 /*----------------END PAGE SEVEN-------------------*/
 /*-----------------START PAGE EIGHT------------------*/
 #pageEight {
@@ -441,75 +446,163 @@ nav ul {
 /*----------------END PAGE NINE-------------------*/
 
 /*-----------START SLIDER FOR TABLET SIZE------------*/
-#slider1_container{
-	margin:0 auto;
-	width:100%;
-}
-.jssora09l, .jssora09r {
-	display: block !important;
-	position: absolute;
-	/* size of arrow element */
-	width: 50px;
-	height: 50px;
-	cursor: pointer;
-	background: url(../images/a09.png) no-repeat;
-	overflow: hidden;
-	opacity: .4;
-	filter: alpha(opacity=40);
-}
-.jssora09l {
-	background-position: -5px -35px;
-}
-.jssora09r {
-	background-position: -65px -35px;
-}
-.jssora09l:hover {
-	background-position: -5px -35px;
-	opacity: .8;
-	filter: alpha(opacity=80);
-}
-.jssora09r:hover {
-	background-position: -65px -35px;
-	opacity: .8;
-	filter: alpha(opacity=80);
-}
-.jssora09l.jssora09ldn {
-	background-position: -5px -35px;
-	opacity: .3;
-	filter: alpha(opacity=30);
-}
-.jssora09r.jssora09rdn {
-	background-position: -65px -35px;
-	opacity: .3;
-	filter: alpha(opacity=30);
-}
-.SliderCaptionParent{
-	position: absolute;
-	top: 250px;
-	left: 0px;
-    width: 600px;
-	height: 50px;
-}
-.SliderCaptionText{
-	padding-left:20px;
-	position: absolute;
-	top: -80px;
-	left: 0px;
-	width: 600px;
-	height: 0px;
-    color: #FFF;
-	text-align: left;
-}
-.SliderCaptionText h3{
-	padding-bottom:15px;
-}
-.SliderCaptionText h4{
-	padding-bottom:10px;
-}
-.SliderCaptionText p{
-	line-height:17px;
-}
+ .share-icon {
+                    display: inline-block;
+                    float: left;
+                    margin: 4px;
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background-image: url(../img/share/share-icons.png);
+                }
 
+                .share-facebook {
+                    background-position: 0px 0px;
+                }
+
+                    .share-facebook:hover {
+                        background-position: 0px -40px;
+                    }
+
+        .share-twitter {
+            background-position: -40px 0px;
+        }
+
+            .share-twitter:hover {
+                background-position: -40px -40px;
+            }
+
+        .share-pinterest {
+            background-position: -80px 0px;
+        }
+
+            .share-pinterest:hover {
+                background-position: -80px -40px;
+            }
+
+                .share-linkedin {
+                    background-position: -240px 0px;
+                }
+
+                    .share-linkedin:hover {
+                        background-position: -240px -40px;
+                    }
+
+
+                .share-googleplus {
+                    background-position: -120px 0px;
+                }
+
+                    .share-googleplus:hover {
+                        background-position: -120px -40px;
+                    }
+
+
+        .share-stumbleupon {
+            background-position: -360px 0px;
+        }
+
+            .share-stumbleupon:hover {
+                background-position: -360px -40px;
+            }
+
+                .share-email {
+                    background-position: -320px 0px;
+                }
+
+                    .share-email:hover {
+                        background-position: -320px -40px;
+                    }
+					
+					/* jssor slider bullet navigator skin 03 css */
+            /*
+            .jssorb03 div           (normal)
+            .jssorb03 div:hover     (normal mouseover)
+            .jssorb03 .av           (active)
+            .jssorb03 .av:hover     (active mouseover)
+            .jssorb03 .dn           (mousedown)
+            */
+            .jssorb03 {
+                position: absolute;
+            }
+            .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 21px;
+                height: 21px;
+                text-align: center;
+                line-height: 21px;
+                color: white;
+                font-size: 12px;
+                background: url(../img/b03.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .jssorb03 div { background-position: -5px -4px; }
+            .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+            .jssorb03 .av { background-position: -65px -4px; }
+            .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+			/* jssor slider arrow navigator skin 20 css */
+            /*
+            .jssora20l                  (normal)
+            .jssora20r                  (normal)
+            .jssora20l:hover            (normal mouseover)
+            .jssora20r:hover            (normal mouseover)
+            .jssora20l.jssora20ldn      (mousedown)
+            .jssora20r.jssora20rdn      (mousedown)
+            */
+            .jssora20l, .jssora20r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background:url(../../../../searchPage/AliTW/assets/images/a20.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora20l { background-position: -3px -33px; }
+            .jssora20r { background-position: -63px -33px; }
+            .jssora20l:hover { background-position: -123px -33px; }
+            .jssora20r:hover { background-position: -183px -33px; }
+            .jssora20l.jssora20ldn { background-position: -243px -33px; }
+            .jssora20r.jssora20rdn { background-position: -303px -33px; }
+			 .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(../img/browser-icons.png);
+        }
 /*-----------END SLIDER FOR TABLET SIZE------------*/
 
 /*----------------MEDIA QUARY FOR TABLET-------------*/
@@ -563,11 +656,11 @@ html br {
 	text-decoration:underline;
 }
 /*----------------END PAGE FIVE-------------------*/
-/*----------------START PAGE SIX-------------------*/
-#pageSix{
-	display:none;
+/*----------------START PAGE SEVEN-------------------*/
+#pageSeven img{
+	width:80%;
 }
-/*----------------END PAGE SIX-------------------*/
+/*----------------END PAGE SEVEN-------------------*/
 /*----------------START PAGE EIGHT-------------------*/
 #pageEight {
 	padding-bottom:0;
@@ -628,10 +721,17 @@ html br {
 	font-size: 15px;
 }
 /*----------------END PAGE NINE-------------------*/
+/*Tablet size*/
+.qr_code {
+             display: none;
+          }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 header{
 	text-align:center;
+}
+#TabletMenu div:last-of-type button{
+	width:120px;
 }
 #logo img{
 	width:30%;
@@ -639,4 +739,33 @@ header{
 #slider1_container{
 	width:80%;
 }
+.textSettingEven{
+	font-size:30px;
+}
+.textSettingOdd{
+	font-size:30px;
+}
+/*----------------START PAGE SIX-------------------*/
+#pageSix h1{
+	font-size:30px;
+}
+/*----------------END PAGE SIX-------------------*/
+/*----------------START PAGE SEVEN-------------------*/
+#pageSeven{
+	padding:20px 0;
+}
+#pageSeven h1{
+	padding:20px 0;
+}
+#pageSeven img{
+	width:50%;
+}
+/*----------------END PAGE SEVEN-------------------*/
+/*----------------START PAGE EIGHT-------------------*/
+#pageEight{
+	padding:20px 0;
+}
+/*----------------END PAGE EIGHT-------------------*/
+
+
 }

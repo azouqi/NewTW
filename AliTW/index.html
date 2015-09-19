@@ -16,7 +16,7 @@
     <header id="menu" class="clearfix font">
     <!--Start Tablet menu-->
     <div id="TabletMenu" class="clearfix">
-    	<div class="col-xs-9">
+    	<div class="col-sm-9 col-xs-6">
         	<div id="TabletMenuButton">
             <button></button>
             	<ul id="menuElementsTablet">
@@ -25,13 +25,13 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xs-3">
+        <div class="col-sm-3 col-xs-6">
         <button class="topButton">Get Started</button>
         </div>
     </div>
     <!--End Tablet menu-->
       <div id="logo" class="col-sm-3 col-xs-12"> <a href="#"><img src="assets/images/Logo Foreground.png"/></a> </div>
-      <div class="col-sm-9 visible-sm">
+      <div class="col-sm-9 hidden-xs">
         <ul id="menuElements">
           <li><a href="#">Blog</a></li>
           <li><a href="#">LogIn</a></li>
@@ -116,11 +116,12 @@
   <div id="pageSeven" class="clearfix">
     <h1 class="font fontColorBlue"> We also know you need this personal</br>
       trainer software to be <span>affordable</span> so</h1>
-    <div class="font col-sm-6 col-md-12"><h1> Our pricing are more affordable than any of</br>
-      our computer</h1></div>
-      <div class="col-sm-6 visible-sm">
+      <div class="col-sm-6 col-sm-push-6 visible-sm visible-xs">
       <img src="assets/images/PIggyBank.png">
       </div>
+    <div class="font col-sm-6 col-sm-pull-6 col-md-12"><h1> Our pricing are more affordable than any of</br>
+      our computer</h1></div>
+      
   </div>
   <!--End page seven--> 
   <!--Start page eight-->
@@ -214,37 +215,57 @@
         <li>Fotget password</li>
       </ul>
     </div>
-    <div class="col-xs-5 pageNineLastPart">
+    <div class="col-sm-5 col-xs-12 pageNineLastPart">
       <h3 class="font">Newsletter</h3>
       <div id="lastInfo">
-        <input class="col-xs-8 font fontColorBlue" type="text" name="fname" value="Newsletter Sign Up">
-        <button class="col-xs-4 font">Subscribe</button>
+        <input class="col-sm-8 col-xs-12 font fontColorBlue" type="text" name="fname" value="Newsletter Sign Up">
+        <button class="col-sm-4 col-xs-12 font">Subscribe</button>
       </div>
     </div>
-    <div class="col-xs-3"> </div>
-    <div class="col-xs-4 pageNineLastPart">
+    <div class="col-sm-3 col-xs-12"> </div>
+    <div class="col-sm-4 col-xs-12 pageNineLastPart">
       <h3 class="font">Contact Us</h3>
       <a href="#"><img src="assets/images/e-mail@2x.png"/></a> <a href="#"><img src="assets/images/instagram@2x.png"/></a> <a href="#"><img src="assets/images/facebook@2x.png"/></a> <a href="#"><img src="assets/images/twitter@2x.png"/></a> </div>
   </div>
   <!--End page nine--> 
   <!--Start Slider for Tablet Size-->
-  <div id="slider1_container" style="position: relative; width: 600px;
-        height: 300px; overflow: hidden;">
-    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
+  <div id="slider1_container" style="position: relative; width: 980px;
+        height: 380px; overflow: hidden;">
+ 
+        <!-- Slides Container --> 
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 980px; height: 380px;
             overflow: hidden;">
-      <div><img u="image" src="assets/images/bodybuilding-header2.jpg" />
-        <div class="SliderCaptionParent">
-          <div class="SliderCaptionText font"><h3>Jamie Lanigan</h3><h4>Concordia University</h4><p>TrainerWorkout allowed me to save an</p><p>average of 2 hours/week. Just one thing</p><p>to say: THANKS!!</p></div>
-        </div>
-      </div>
-      <div><img u="image" src="assets/images/bodybuilding-header2.jpg" /></div>
-      <div><img u="image" src="assets/images/bodybuilding-header2.jpg"/></div>
-      <div><img u="image" src="assets/images/bodybuilding-header2.jpg" /></div>
-    </div>
-    <!-- Arrow Left --> 
-    <span u="arrowleft" class="jssora09l" style="top: 123px; left: 8px;"> </span> 
-    <!-- Arrow Right --> 
-    <span u="arrowright" class="jssora09r" style="top: 123px; right: 8px;"> </span> </div>
+            <div>
+                <img u="image" src="../../searchPage/AliTW/assets/images/bodybuilding-header2.jpg" />
+                
+            </div>
+            <div> 
+                <img u="image" src="../../searchPage/AliTW/assets/images/bodybuilding-header2.jpg" />
+                
+            </div>
+            <div> 
+                <img u="image" src="../../searchPage/AliTW/assets/images/bodybuilding-header2.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="../../searchPage/AliTW/assets/images/bodybuilding-header2.jpg" />
+                
+            </div>
+
+        </div> 
+
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora20l" style="top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora20r" style="top: 123px; right: 8px;">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+    </div> 
   <!--END Slider for Tablet Size--> 
 </section>
 <!-- jQuery Version 1.11.1 --> 
